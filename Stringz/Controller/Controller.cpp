@@ -11,27 +11,30 @@
 
 using namespace std;
 
+Controller :: Controller()
+{
+    
+    
+}
+
 void Controller :: start()
 {
     
 }
 
-void StringLength()
+/*
+ Test out the methods that use numbers on strings in C++.
+ */
+
+void Controller :: numberMethods()
 {
+    int count = derpy.size();
+    cout << "the number of letters in the derpy variable is: " << cout << endl;
+    cout << "so the size() method of string works like the length() method of java on String" << endl;
     
+    string temp = derpy.substr(3);
+    cout << temp <<endl;
 }
 
-void emptyString()
-{
-    
-}
 
-int atString()
-{
-    return 0;
-}
 
-void compare(string)
-{
-    
-}

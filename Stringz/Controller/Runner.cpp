@@ -10,7 +10,7 @@
 
 int main()
 {
-    Controller * app = new Controller;
-    
+    Controller * app = new Controller();
+    app -> start();
     return 0;
 }

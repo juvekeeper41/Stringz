@@ -9,16 +9,15 @@
 #ifndef Controller_h
 #define Controller_h
 
+#include <string>
+using namespace std;
+
 class Controller
 {
 public:
     void start();
+    Controller();
 private:
-    void stringLength();
-    int atString();
-    void emptyString();
-    void compareString();
-    void substr();
-    
+    void numberMethods();
 };
 #endif /* Controller_h */
